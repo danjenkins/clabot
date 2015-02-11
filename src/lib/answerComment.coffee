@@ -4,6 +4,7 @@ _      = require 'lodash'
 github = require 'github'
 
 comment  = require './comment'
+status   = require './status'
 
 exports = module.exports = (req, res, options, contractors, payload) ->
 
